@@ -6,3 +6,4 @@ class Test(unittest.TestCase):
         self.assertTrue(find_asterisk("tests/test1.json"))
         self.assertFalse(find_asterisk("tests/test2.json"))
         self.assertFalse(find_asterisk("tests/test3.json"))
+        self.assertFalse(find_asterisk("tests/test4.json"))

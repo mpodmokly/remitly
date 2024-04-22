@@ -1,4 +1,6 @@
 # remitly
+## Tests
+To run tests
 ```
-python -m unittest nazwa_pliku_z_testami.py
+python -m unittest tests/test.py
 ```
